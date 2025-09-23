@@ -44,7 +44,7 @@ export default function Home() {
                 <span className="block text-orange-300">Perfect Sound</span>
               </h1>
               {/* Subtitle - Platform features */}
-              <p className="text-xl mb-8 text-purple-100">Stream millions of songs, create playlists, and explore new artists in our immersive music platform.</p>
+              <p className="text-xl mb-8 text-purple-100">畅听数百万首歌曲，创建播放列表，在我们沉浸式音乐平台中探索新艺术家。。</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 {/* Primary CTA - Start exploring */}
                 <Link
