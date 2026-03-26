@@ -1,0 +1,14 @@
+{
+  "name": "Test JSON",
+  "type": "Data",
+  "version": 1.0,
+  "features": [
+    "Renderable",
+    "Structured",
+    "Lightweight"
+  ],
+  "author": {
+    "name": "AI",
+    "role": "Assistant"
+  }
+}

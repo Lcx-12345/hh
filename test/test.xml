@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <header>
+        <title>测试 XML 文件</title>
+        <date>2023-10-27</date>
+    </header>
+    <body>
+        <content>这是一个可以被渲染和解析的 XML 文件。</content>
+    </body>
+</document>

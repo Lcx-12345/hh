@@ -1,0 +1,10 @@
+title: 测试 YAML 文件
+description: 这是一个可以被 YAML 解析器渲染的文件
+items:
+  - id: 1
+    name: "Apple"
+  - id: 2
+    name: "Banana"
+settings:
+  enabled: true
+  timeout: 300
