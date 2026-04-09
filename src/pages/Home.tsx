@@ -6,7 +6,7 @@ import { mockTracks, mockArtists, mockAlbums, mockPlaylists, genres } from '@/da
 import { TrackCard } from '@/components/TrackCard';
 
 export default function Home() {
-  const { tracks, playTrack, setSearchQuery, setSelectedGenre } = useMusicStore();
+  const { playTrack, setSearchQuery, setSelectedGenre } = useMusicStore();
 
   // Initialize store with mock data
   useEffect(() => {
