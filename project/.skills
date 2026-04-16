@@ -1,0 +1,19 @@
+{
+  "skills": [
+    {
+      "name": "file-format-detector",
+      "path": ".trae/skills/file-format-detector",
+      "description": "检测文件格式，特别是图片文件格式",
+      "triggers": {
+        "keywords": ["图片", "image", "图片文件", "image file", "文件格式", "file format"],
+        "patterns": ["识别.*图片", "检测.*图片", "图片.*格式", "image.*format"]
+      },
+      "enabled": true
+    }
+  ],
+  "settings": {
+    "auto_trigger": true,
+    "timeout": 30,
+    "default_language": "zh-CN"
+  }
+}
