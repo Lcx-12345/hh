@@ -1,0 +1,29 @@
+{
+  "name": "file-format-detector",
+  "display_name": "文件格式检测器",
+  "description": "检测文件格式，特别是图片文件格式",
+  "trigger": {
+    "type": "keyword",
+    "keywords": ["图片", "image", "图片文件", "image file", "文件格式", "file format"],
+    "patterns": ["识别.*图片", "检测.*图片", "图片.*格式", "image.*format"]
+  },
+  "execution": {
+    "type": "script",
+    "script_path": "run.py",
+    "working_directory": ".",
+    "timeout": 10
+  },
+  "inputs": {
+    "file_path": {
+      "type": "string",
+      "description": "文件路径",
+      "required": true,
+      "prompt": "请提供文件路径"
+    }
+  },
+  "outputs": {
+    "file_format": "string",
+    "is_image": "boolean",
+    "image_type": "string"
+  }
+}
