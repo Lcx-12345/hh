@@ -1,0 +1,4 @@
+Hello World!
+This is a test file for demonstration.
+We have edited this line using SearchReplace.
+Goodbye!
